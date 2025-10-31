@@ -1,0 +1,75 @@
+
+$rojo-colonial: #8b1a1a;
+$rojo-sangre: #4d0e0e;
+$crema-antiguo: #f3e8d2;
+
+$fuente-titulos: 'Cinzel', serif;
+$fuente-texto: 'Crimson Text', serif;
+
+body {
+  font-family: $fuente-texto;
+  background-color: $crema-antiguo;
+  color: #2d2d2d;
+}
+
+.header {
+  background: linear-gradient(135deg, $rojo-colonial, $rojo-sangre);
+  padding: 1.5rem 0;
+
+  .sitename {
+    font-family: $fuente-titulos;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  .subheader {
+    color: #f7d7d7;
+    font-style: italic;
+  }
+
+  nav a {
+    color: #ffd4d4 !important;
+
+    &:hover {
+      color: white !important;
+    }
+  }
+}
+
+.hero {
+  background: rgba(139, 26, 26, 0.45);
+  padding: 4rem 0;
+  text-align: center;
+
+  .hero-title {
+    font-family: $fuente-titulos;
+    font-size: 2.8rem;
+    color: $rojo-sangre;
+  }
+}
+
+.feature-card {
+  background: white;
+  border: 2px solid $rojo-colonial;
+  padding: 1.5rem;
+  border-radius: 8px;
+
+  .feature-icon {
+    font-size: 3rem;
+  }
+
+  .feature-title {
+    font-family: $fuente-titulos;
+    color: $rojo-colonial;
+  }
+}
+
+.site-footer {
+  background: $rojo-sangre;
+  padding: 1.5rem 0;
+
+  .footer-text {
+    color: #ffe2e2;
+  }
+}
